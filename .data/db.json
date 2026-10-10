@@ -1,0 +1,147 @@
+{
+  "accessCodes": [
+    {
+      "id": "code-demo-1",
+      "code": "07080717",
+      "description": "Boshlang'ich sinov (demo) kodi",
+      "maxUses": 9999,
+      "usedCount": 0,
+      "isActive": true,
+      "createdAt": "2026-10-10T06:03:38.938Z"
+    },
+    {
+      "id": "code-vip-1",
+      "code": "77700011",
+      "description": "Yillik to'liq ta'lim obunasi",
+      "maxUses": 50,
+      "usedCount": 2,
+      "isActive": true,
+      "createdAt": "2026-10-10T06:03:38.938Z"
+    },
+    {
+      "id": "code-vip-2",
+      "code": "99881122",
+      "description": "Maktab o'qituvchisi paketi",
+      "maxUses": 100,
+      "usedCount": 5,
+      "isActive": true,
+      "createdAt": "2026-10-10T06:03:38.938Z"
+    },
+    {
+      "code": "TEST9988",
+      "description": "Automated test code",
+      "maxUses": 10,
+      "isActive": true,
+      "id": "code-1791612218943-1hl5",
+      "usedCount": 0,
+      "createdAt": "2026-10-10T06:03:38.943Z"
+    },
+    {
+      "code": "TEST9988",
+      "description": "Automated test code",
+      "maxUses": 10,
+      "isActive": true,
+      "id": "code-1791612228616-3d09",
+      "usedCount": 0,
+      "createdAt": "2026-10-10T06:03:48.616Z"
+    },
+    {
+      "code": "TEST9988",
+      "description": "Automated test code",
+      "maxUses": 10,
+      "isActive": true,
+      "id": "code-1791612307332-evpq",
+      "usedCount": 0,
+      "createdAt": "2026-10-10T06:05:07.332Z"
+    }
+  ],
+  "users": [
+    {
+      "userId": "user-1791612276170-9c8w",
+      "fullName": "Administrator",
+      "phone": "+998900000000",
+      "role": "admin",
+      "codeUsed": "admin_savollar_2026",
+      "createdAt": 1791612276170,
+      "expiresAt": 1792217076170
+    },
+    {
+      "userId": "user-1791612256074-7h0g",
+      "fullName": "Anvar Karimov",
+      "phone": "+998901234567",
+      "role": "student",
+      "codeUsed": "07080717",
+      "createdAt": 1791612256074,
+      "expiresAt": 1792217056074
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1791612250752-7u98",
+      "userName": "Anvar Karimov",
+      "phone": "+998901234567",
+      "amount": 70000,
+      "status": "Kutilmoqda",
+      "createdAt": "2026-10-10T06:04:10.752Z",
+      "updatedAt": "2026-10-10T06:04:10.752Z"
+    },
+    {
+      "id": "pay-sample-1",
+      "userName": "Akmal Karimov",
+      "phone": "+998901234567",
+      "amount": 70000,
+      "status": "Tasdiqlangan",
+      "codeIssued": "07080717",
+      "createdAt": "2026-10-09T06:03:38.938Z",
+      "updatedAt": "2026-10-09T10:03:38.938Z",
+      "note": "Telegram @ergashexsss7o2 orqali to'lov tasdiqlandi"
+    },
+    {
+      "id": "pay-sample-2",
+      "userName": "Nilufar Usmonova",
+      "phone": "+998939876543",
+      "amount": 70000,
+      "status": "Kutilmoqda",
+      "createdAt": "2026-10-10T04:03:38.938Z",
+      "updatedAt": "2026-10-10T04:03:38.938Z",
+      "note": "Karta orqali chek yuborilgan, tekshirish kutilmoqda"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791612307332-w6ww",
+      "timestamp": "2026-10-10T06:05:07.332Z",
+      "action": "Yangi kirish kodi yaratildi",
+      "details": "Kod: TEST9988, Tavsif: Automated test code",
+      "actor": "Admin"
+    },
+    {
+      "id": "log-1791612250753-s39u",
+      "timestamp": "2026-10-10T06:04:10.753Z",
+      "action": "To'lov so'rovi yaratildi",
+      "details": "Foydalanuvchi: Anvar Karimov, Tel: +998901234567",
+      "actor": "User"
+    },
+    {
+      "id": "log-1791612228616-65h0",
+      "timestamp": "2026-10-10T06:03:48.616Z",
+      "action": "Yangi kirish kodi yaratildi",
+      "details": "Kod: TEST9988, Tavsif: Automated test code",
+      "actor": "Admin"
+    },
+    {
+      "id": "log-1791612218943-qjkv",
+      "timestamp": "2026-10-10T06:03:38.943Z",
+      "action": "Yangi kirish kodi yaratildi",
+      "details": "Kod: TEST9988, Tavsif: Automated test code",
+      "actor": "Admin"
+    },
+    {
+      "id": "log-init",
+      "timestamp": "2026-10-10T06:03:38.938Z",
+      "action": "Tizim ishga tushirildi",
+      "details": "Baza ma'lumotlari boshlang'ich holatda sozlandi",
+      "actor": "System"
+    }
+  ]
+}

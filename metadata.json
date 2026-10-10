@@ -1,0 +1,6 @@
+{
+  "name": "Savollarni javobi bilan",
+  "description": "Maktab o'quvchilari uchun matematika va algebra fanlaridan savollar, bosqichma-bosqich yechimlar, test rejimi va ovozli o'qish imkoniyatiga ega ta'lim platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
